@@ -6,8 +6,12 @@ import logo from "./logos/logo.svg"
 import btcrate from "./others/btcrate.svg"
 import arrowDownLong from "./icons/arrowDownLong.svg"
 import arrowUpLong from "./icons/arrowUpLong.svg"
+import greyArrowDown from "./icons/greyArrowDown.svg"
 import barchart from "./icons/barchart.svg"
 import clock from "./icons/clock.svg"
+import stack from "./icons/stack.svg"
+import stack2 from "./icons/stack2.svg"
+import stack3 from "./icons/stack3.svg"
 
 
 export {
@@ -21,4 +25,8 @@ export {
     arrowUpLong,
     barchart,
     clock,
+    stack,
+    stack2,
+    stack3,
+    greyArrowDown
 }
