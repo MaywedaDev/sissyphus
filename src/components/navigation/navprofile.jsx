@@ -1,5 +1,5 @@
-import arrowRight from "../../assets/images/icons/u_angle-right.svg"
-import profilepic from "../../assets/images/avatars/81.svg"
+import {arrowRight} from "../../assets/images"
+import {profilepic} from "../../assets/images"
 
 const Profile = () => {
     return ( 

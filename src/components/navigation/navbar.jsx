@@ -1,6 +1,6 @@
 import Logo from "./logo";
-import globe from "../../assets/images/icons/Globe.svg"
-import signout from "../../assets/images/icons/SignOut.svg"
+import {globe} from "../../assets/images"
+import {signout} from "../../assets/images"
 import NavProfile from "./navprofile";
 
 
