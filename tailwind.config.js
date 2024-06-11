@@ -16,7 +16,8 @@ export default {
         "border-2": "rgba(38, 41, 50, 1)",
         profit: "#00C076",
         loss: "#FF6838",
-        "btn-active": "#353945"
+        "btn-active": "#353945",
+        "border-3": "#373B3F"
       }
     },
   },

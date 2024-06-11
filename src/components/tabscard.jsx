@@ -2,12 +2,14 @@ import Card from "./card";
 import PropTypes from 'prop-types'
 import Switcher from "./switcher";
 
-const TabsCard = ({children}) => {
+const TabsCard = ({children, buttons}) => {
     return ( 
         <Card>
-            <div className="px-2 py-3">
-                <Switcher />
-                {children}
+            <div className="px-2 py-3 w-[250px]">
+                <Switcher buttons={buttons} />
+                <div className="w-full px-2 py-3 flex flex-col gap-3 text-white">
+                    {children}
+                </div>
             </div>
         </Card>
      );
@@ -17,4 +19,5 @@ export default TabsCard;
 
 TabsCard.propTypes = {
     children: PropTypes.node,
+    buttons: PropTypes.array
 }

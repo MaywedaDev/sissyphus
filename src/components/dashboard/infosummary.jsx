@@ -1,4 +1,5 @@
 import { arrowDownLong, arrowUpLong, clock, barchart } from "../../assets/images";
+import PropTypes from 'prop-types';
 
 const statsIcons = {
     change: clock,
@@ -20,3 +21,9 @@ const Summary = ({title, profit, value}) => {
 }
  
 export default Summary;
+
+Summary.propTypes = {
+    title: PropTypes.string,
+    profit: PropTypes.bool,
+    value: PropTypes.string
+}

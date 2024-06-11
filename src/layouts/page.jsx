@@ -3,7 +3,7 @@ import Dashboard from "../components/dashboard/dashboard";
 
 const PageLayout = () => {
     return ( 
-        <div className="min-h-screen w-full bg-primary">
+        <div className="min-h-screen w-full bg-primary overflow-x-hidden">
             <Nav />
             <Dashboard />
         </div>

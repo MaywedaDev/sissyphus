@@ -12,6 +12,7 @@ import clock from "./icons/clock.svg"
 import stack from "./icons/stack.svg"
 import stack2 from "./icons/stack2.svg"
 import stack3 from "./icons/stack3.svg"
+import warning from "./icons/warning.svg"
 
 
 export {
@@ -28,5 +29,6 @@ export {
     stack,
     stack2,
     stack3,
-    greyArrowDown
+    greyArrowDown,
+    warning
 }

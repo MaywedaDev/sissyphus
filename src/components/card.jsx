@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 
 const Card = ({children, full}) => {
     return ( 
-        <div className={`bg-paper border border-border-2 rounded-lg overflow-hidden min-w-fit ${full && 'w-full'}`}>
+        <div className={`bg-paper border border-border-2 rounded-lg ${full && 'w-full'}`}>
             {children}
         </div>
      );
