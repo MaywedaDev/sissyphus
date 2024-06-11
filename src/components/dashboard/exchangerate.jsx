@@ -109,13 +109,18 @@ const ExchangeRate = () => {
                     <TextField label="Amount"/>
                     <TextField label="Type" isSelect />
                 </div>
-                <div className="text-xs text-text-col-1">
+                <div className="text-xs text-text-col-1 w-full space-y-3">
                     <div className="flex gap-1 items-center">
                         <input type="checkbox" name="" id="" />
                         <label>Post Only</label>
                         <img src={warning} alt="" />
                     </div>
-                    <div className="flex"></div>
+                    <div className="flex justify-between w-full">
+                        <span>Total</span>
+                        <span>0.00</span>
+                    </div>
+                    <button className="p-3 rounded-lg bg-gradient-to-tr"></button>
+                    <div className="w-full h-[1px] bg-[#394047]"></div>
                 </div>
             </TabsCard>
         </>
