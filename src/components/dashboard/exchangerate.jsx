@@ -119,8 +119,26 @@ const ExchangeRate = () => {
                         <span>Total</span>
                         <span>0.00</span>
                     </div>
-                    <button className="p-3 rounded-lg bg-gradient-to-tr"></button>
+                    <button className="p-3 rounded-lg bg-gradient-to-r from-[#483BEB] via-[#7847E1] to-[#DD568D] text-white text-sm w-full">Buy BTC</button>
                     <div className="w-full h-[1px] bg-[#394047]"></div>
+                    <div className="flex w-full justify-between items-start">
+                        <div className="flex flex-col">
+                            <span>Total account value</span>
+                            <span className="text-white text-sm">0.00</span>
+                        </div>
+                        <button className="flex items-center gap-1"><span>NGN</span> <img src={greyArrowDown} alt="" /></button>
+                    </div>
+                    <div className="flex w-full justify-between items-start">
+                        <div className="flex flex-col">
+                            <span>Open Orders</span>
+                            <span className="text-white text-sm">0.00</span>
+                        </div>
+                        <div className="flex flex-col">
+                            <span>Available</span>
+                            <span className="text-white text-sm">0.00</span>
+                        </div>
+                    </div>
+                    <button className="py-3 px-4 rounded-lg bg-[#2764FF] text-white text-sm !mt-10">Deposit</button>
                 </div>
             </TabsCard>
         </>
